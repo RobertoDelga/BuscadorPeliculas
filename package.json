@@ -1,0 +1,17 @@
+{
+  "name": "buscador-peliculas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Buscador de películas con Node.js, Express y fetch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.1.0"
+  }
+}

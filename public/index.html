@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Buscador de películas con Node.js y una API pública">
+  <title>Buscador de Películas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>🎬 Buscador de Películas</h1>
+    <p class="subtitulo">Encuentra información sobre tus películas favoritas.</p>
+
+    <form id="formBusqueda" class="buscador">
+      <input id="nombrePelicula" type="search" placeholder="Escribe el nombre de una película" aria-label="Nombre de la película" required>
+      <button id="btnBuscar" type="submit">Buscar</button>
+    </form>
+
+    <p id="mensaje" role="status" aria-live="polite"></p>
+    <section id="resultados" class="resultados" aria-label="Resultados de películas"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
